@@ -55,7 +55,7 @@ bot.on('message', (message) => {
         // message.reply("Hewwo c:");
         message.channel.send("Hewwo c:");
     }          
-    if(message.content == "%Ze Voidah") {
+    if(message.content == "%ze voidah") {
         // message.reply("dab xlol \:joy: \:ok_hand:");
         message.channel.send("dab xlol \:joy: \:ok_hand:");
     }  
