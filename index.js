@@ -54,7 +54,11 @@ bot.on('message', (message) => {
     if(message.content == "hOi people c:") {
         // message.reply("Hewwo c:");
         message.channel.send("Hewwo c:");
-    }        
+    }          
+    if(message.content == "%help") {
+        // message.reply("All commands: https://github.com/GamerForEverr/Absolut-Bot/blob/master/commands.txt");
+        message.channel.send("All commands: https://github.com/GamerForEverr/Absolut-Bot/blob/master/commands.txt");
+    }  
 });    
 
 bot.login(process.env.BOT_TOKEN);
