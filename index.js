@@ -55,9 +55,9 @@ bot.on('message', (message) => {
         // message.reply("Hewwo c:");
         message.channel.send("Hewwo c:");
     }          
-    if(message.content == "%help") {
+    if(message.content == "%Ze Voidah") {
         // message.reply("All commands: https://github.com/GamerForEverr/Absolut-Bot/blob/master/commands.txt");
-        message.channel.send("All commands: https://github.com/GamerForEverr/Absolut-Bot/blob/master/commands.txt");
+        message.channel.send("dab xlol \:joy: \:ok_hand:");
     }  
 });    
 
