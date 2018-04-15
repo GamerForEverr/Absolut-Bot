@@ -1,6 +1,12 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
+bot.on('ready', function() {
+    console.log('absolut bot');
+	
+	bot.user.setGame('Watch me stream!', 'https://twitch.tv/GamerForEverLive');
+});
+
 bot.on('message', (message) => {
 
     if(message.content == "%soviet anthem") {
