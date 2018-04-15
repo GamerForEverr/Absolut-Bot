@@ -58,18 +58,6 @@ bot.on('message', (message) => {
     if(message.content == "hOi people c:") {
         // message.reply("Hewwo c:");
         message.channel.send("Hewwo c:");
-    }                    
-    if(message.content == "%help") {
-        // message.reply("Hewwo c:");
-        message.channel.send("All commands (for now):
-1. ``%daniel``
-2. ``%mexxn``
-3. ``%ahmad``
-4. ``%quinn``
-5. ``%swegta``
-6. ``%soviet anthem``
-7. ``%bully mp``
-8. ``%windows 10``");
     }        
 });    
 
