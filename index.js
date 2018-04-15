@@ -48,7 +48,7 @@ bot.on('message', (message) => {
     message.channel.send("Download Bully Multiplayer mod here! https://bully-mp.com");
     }    
     if(message.content == "%help") {
-    // message.reply("No help available.");
+    // message.reply("Commands: 1. %mexxn 2. %daniel 3. %quinn 4. %swegta 5. %bully mp 6. %windows 10 7. %ahmad 8. %soviet anthem");
     message.channel.send("Commands: 1. %mexxn 2. %daniel 3. %quinn 4. %swegta 5. %bully mp 6. %windows 10 7. %ahmad 8. %soviet anthem");
     }      
     if(message.content == "%ahmad") {
