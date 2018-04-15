@@ -4,7 +4,6 @@ const bot = new Discord.Client();
 bot.on('message', (message) => {
 
     if(message.content == "%soviet anthem") {
-        // message.reply("https://www.youtube.com/watch?v=U06jlgpMtQs");
         message.channel.send("https://www.youtube.com/watch?v=U06jlgpMtQs");
     }
     if(message.content == "%quinn") {
