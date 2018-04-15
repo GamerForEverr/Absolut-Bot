@@ -49,7 +49,7 @@ bot.on('message', (message) => {
     }    
     if(message.content == "%help") {
     // message.reply("No help available.");
-    message.channel.send("No help available.");
+    message.channel.send("Commands: 1. %mexxn 2. %daniel 3. %quinn 4. %swegta 5. %bully mp 6. %windows 10 7. %ahmad 8. %soviet anthem");
     }      
     if(message.content == "%ahmad") {
     // message.reply("Allahu Akbar! \:bomb:");
