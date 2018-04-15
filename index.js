@@ -56,7 +56,7 @@ bot.on('message', (message) => {
         message.channel.send("Hewwo c:");
     }          
     if(message.content == "%Ze Voidah") {
-        // message.reply("All commands: https://github.com/GamerForEverr/Absolut-Bot/blob/master/commands.txt");
+        // message.reply("dab xlol \:joy: \:ok_hand:");
         message.channel.send("dab xlol \:joy: \:ok_hand:");
     }  
 });    
