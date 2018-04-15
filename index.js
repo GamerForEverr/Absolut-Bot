@@ -58,7 +58,11 @@ bot.on('message', (message) => {
     if(message.content == "%ze voidah") {
         // message.reply("dab xlol \:joy: \:ok_hand:");
         message.channel.send("dab xlol \:joy: \:ok_hand:");
-    }  
+    }          
+    if(message.content == "%piraniata") {
+        // message.reply("babi im vasted");
+        message.channel.send("babi im vasted");
+    }
 });    
 
 bot.login(process.env.BOT_TOKEN);
