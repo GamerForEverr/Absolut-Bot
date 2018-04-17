@@ -36,9 +36,6 @@ bot.on('message', (message) => {
     if(message.content == "Should I?") {
     message.channel.send("no");
     }
-    if(message.content == "%swegta") {
-    message.channel.send("Is in fact, a cuck.");
-    } 
     if(message.content == "%bully mp") {
     message.channel.send("Download Bully Multiplayer mod here! https://bully-mp.com");
     }     
