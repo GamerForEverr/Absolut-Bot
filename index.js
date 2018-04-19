@@ -52,7 +52,7 @@ bot.on('message', (message) => {
         message.channel.send("babi im vasted");
     }          
     if(message.content == "%help") {
-        message.channel.send("All Commands (for now): \n 1. %mexxn \n %daniel \n %quinn \n %bully mp \n %windows 10 \n %ahmad \n %soviet anthem");
+        message.channel.send("``All Commands (for now):`` **\n %mexxn \n %daniel \n %quinn \n %bully mp \n %windows 10 \n %ahmad \n %soviet anthem**");
     }
 });    
 
