@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 bot.on('ready', function() {
     console.log('absolut bot');
 	
-	bot.user.setGame('Watch me stream!', 'https://twitch.tv/GamerForEverLive');
+	bot.user.setGame('Drinking Vodka | Say %help', 'https://twitch.tv/GamerForEverLive');
 });
 
 bot.on('message', (message) => {
