@@ -22,7 +22,7 @@ bot.on('message', (message) => {
         message.channel.send("I'm so <:angery:427829562366492672>");
     }
     if(message.content == "%windows 10") {
-        message.channel.send("Download the patch for Windows 10 here! https://github.com/CookiePLMonster/SilentPatchBully/releases");
+        message.channel.send("Download the patch for Windows 10 here! \n https://github.com/CookiePLMonster/SilentPatchBully/releases");
     }
     if(message.content == "no u") {
         message.channel.send("no fug u");
@@ -37,7 +37,7 @@ bot.on('message', (message) => {
     message.channel.send("no");
     }
     if(message.content == "%bully mp") {
-    message.channel.send("Download Bully Multiplayer mod here! https://bully-mp.com");
+    message.channel.send("Download Bully Multiplayer mod here! \n https://bully-mp.com");
     }     
     if(message.content == "%ahmad") {
     message.channel.send("Allahu Akbar! \:bomb:");
@@ -53,7 +53,10 @@ bot.on('message', (message) => {
     }          
     if(message.content == "%help") {
         message.channel.send("``All Commands (for now):`` **\n %mexxn \n %daniel \n %quinn \n %bully mp \n %windows 10 \n %ahmad \n %soviet anthem**");
-    }
+    }          
+    if(message.content == "%bully") {
+        message.channel.send("Downl.., umm I mean, BUY Bully: Scholarship Edition legally here! \n http://store.steampowered.com/app/12200/Bully_Scholarship_Edition");
+    }          
 });
 
 bot.login(process.env.BOT_TOKEN);
