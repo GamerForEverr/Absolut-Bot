@@ -25,7 +25,9 @@ bot.on('message', (message) => {
         message.channel.send("Download the patch for Windows 10 here! \n https://github.com/CookiePLMonster/SilentPatchBully/releases");
     }
     if(message.content == "no u") {
-        message.channel.send("no fug u");
+        message.channel.send("Emulators
+			
+			typically are released by Indie-developers who don't do it for the money, they just want to contribute to the gaming community.\nEmulators are not available until the end of the life-cycle of the console as the system updates keep the console protected.\nThis may not be the case with certain consoles like Playstation 3 or Xbox 360.\nHowever, the consoles that belong to the generation older to that currently have stable emulators and are available online for free.");
     }
     if(message.content == "Hehe c:") {
         message.channel.send("c:");
