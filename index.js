@@ -30,8 +30,8 @@ bot.on('message', (message) => {
     if(message.content == "Hehe c:") {
         message.channel.send("c:");
     }
-    if(message.content == "kill me pls") {
-        message.channel.send("no me");
+    if(message.content == "%emulators") {
+        message.channel.send("Emulators typically are released by developers who don't do it for the money, they just want to contribute to the gaming community.\n\nEmulators are not available until the end of the life-cycle of the console as the system updates keep the console protected./n/nThis may not be the case with certain consoles like Ps3 or even Xbox 360, however the consoles that belong to the generation older to that has an emulator which are freely available on the internet.");
     }   
     if(message.content == "Should I?") {
     message.channel.send("no");
