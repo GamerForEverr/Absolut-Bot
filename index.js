@@ -34,13 +34,13 @@ bot.on('message', (message) => {
     message.channel.send("Download Bully Multiplayer mod here! \n https://bully-mp.com");
     }     
     if(message.content == "%ahmad") {
-    message.channel.send("Allahu Akbar! \:bomb:");
+    message.channel.send("Allahu Akbar! \:bomb:\:boom:");
     }           
     if(message.content == "hOi people c:") {
         message.channel.send("Hewwo c:");
     }          
     if(message.content == "%ze voidah") {
-        message.channel.send("dab xlol \:joy: \:ok_hand:");
+        message.channel.send("dab xlol \:joy:\:ok_hand:");
     }          
     if(message.content == "%piraniata") {
         message.channel.send("babi im vasted");
@@ -52,7 +52,7 @@ bot.on('message', (message) => {
         message.channel.send("Downl.., umm I mean, BUY Bully: Scholarship Edition legally here! \n http://store.steampowered.com/app/12200/Bully_Scholarship_Edition");
     }     
     if(message.content == "%sinister") {
-        message.channel.send("is the best brudah \:GWqlabsLove:");
+        message.channel.send("The best brudah :3");
     }     
 });
 
