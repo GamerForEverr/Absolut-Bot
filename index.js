@@ -50,7 +50,10 @@ bot.on('message', (message) => {
     }          
     if(message.content == "%bully") {
         message.channel.send("Downl.., umm I mean, BUY Bully: Scholarship Edition legally here! \n http://store.steampowered.com/app/12200/Bully_Scholarship_Edition");
-    }          
+    }     
+    if(message.content == "%sinister") {
+        message.channel.send("is the best brudah \:GWqlabsLove:");
+    }     
 });
 
 bot.login(process.env.BOT_TOKEN);
